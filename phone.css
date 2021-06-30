@@ -1,0 +1,22 @@
+#home {
+    height: 820px;
+}
+
+.heading {
+    font-size: 1.7rem;
+}
+
+.img {
+    height: 120px;
+    width: 230px;
+}
+
+.card {
+    height: 380px;
+    width: 250px;
+}
+
+.box {
+    height: 210px;
+    width: 180px;
+}

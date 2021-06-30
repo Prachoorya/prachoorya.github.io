@@ -1,0 +1,223 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+     display: flex;
+     list-style: none;
+     margin: 5px 0px;
+     
+}
+
+.navbar ul li {
+     font-family: century;
+     font-size: 18px;
+     font-weight: bold;
+}
+
+.navbar ul li a {
+     text-decoration: none;
+     color: rgb(73, 69, 69);
+     padding: 10px 20px;
+     transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+     background-color: plum;
+     color: white;
+     box-shadow: 0 0 10px plum;
+}
+
+img {
+     vertical-align: middle;
+}
+
+.logo {
+     font-family: fantasy;
+     font-size: 18px;
+     
+     top: 5px;
+     left: 10px;
+     text-decoration: none;
+     color: black;
+}
+
+#home {
+     display: flex;
+     flex-direction: column;
+     height: 700px;
+     margin-bottom: 10px;
+}
+
+#home::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: 0;
+     background: url("https://spectrumcet.com/assets/spectrum.png") no-repeat center center/cover;
+     height: 700px;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.7;
+}
+
+#aboutus {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     text-align: justify;
+     box-sizing: border-box;
+     padding: 10px;
+     margin-bottom: 10px;
+     background: lavender;
+     color: rgb(68, 63, 63);
+     border: ridge 2px beige;
+}
+
+.heading {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     border-bottom: rgb(68, 63, 63) solid 2px;
+}
+
+.about h1,.wings h1 {
+     letter-spacing: 2px;
+     background: lavender;
+     height: 80px;
+     padding-top: 20px;
+     padding-left: 20px;
+     transition: background 1s linear;
+}
+
+.about h1:hover,.wings h1:hover {
+     background: thistle
+}
+
+.about p,.wings p {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 18px;
+     letter-spacing: 1px;
+}
+
+.rows {
+     display: flex;
+}
+
+.box {
+     display: flex;
+     flex-direction: column;
+     width: 250px;
+     height: 250px;
+     border: 1px solid white;
+     margin: 10px;
+     align-items: center;
+     text-align: justify;
+     padding: 20px;
+     border-radius: 10px;
+     background: linear-gradient(to top, plum 50%, white 50%);
+     background-size: 100% 200%;
+     transition: all 0.5s;
+}
+
+.box:hover {
+     background-position: left bottom;
+     color: white;
+     box-shadow: 0 0 20px whitesmoke;
+}
+
+#projects {
+     display: flex;
+     flex-direction: column;
+     background-color: rgba(247, 210, 47, 0.5);
+     align-items: center;
+}
+
+#projects h1 {
+     margin: 10px;
+     text-align: center;
+     color:rgb(68, 63, 63);
+     padding: 10px;
+     padding-top: 20px;
+}
+
+.grids {
+     display: grid;
+     grid-template-columns: auto auto;
+     padding: 50px;
+}
+
+.card {
+     height: 450px;
+     width: 350px;
+     background: rgba(255,255,255,0.5); 
+     border: solid white 2px;
+     border-radius: 5px;
+     margin: 10px;
+     padding: 10px;
+     align-items: center;
+     transition: background 0.5s linear;
+}
+
+.card:hover {
+     background: whitesmoke;
+     box-shadow: 0 0 20px whitesmoke;
+}
+
+.img {
+     height: 200px;
+     width: 330px;
+     padding: 20px;
+     align-items: center;
+}
+
+#contact {
+     display: flex;
+     flex-direction: column;
+     box-sizing: border-box;
+     color:rgb(68, 63, 63);
+     align-items: center;
+     padding: 20px;
+}
+
+.fa {
+     padding: 20px;
+     font-size: 30px;
+     width: 30px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 50%;
+}
+
+.extra{
+     display: flex;
+     flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
